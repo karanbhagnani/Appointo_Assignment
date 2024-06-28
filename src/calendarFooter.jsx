@@ -7,12 +7,12 @@ function Footer({visibility}){
         <>
         <div className="footer">
             <div className="appointoBranding">
-                <p>Made with<i class="fa-solid fa-heart"></i>by <a href='https://apps.shopify.com/appointo-appointments-and-bookings' target='blank'>Appointo</a></p>
+                <p>Made with<i className="fa-solid fa-heart"></i>by <a href='https://apps.shopify.com/appointo-appointments-and-bookings' target='blank'>Appointo</a></p>
             </div>
             {
                 visibilityOfNext ? 
                 <div className="buttonsNext">
-                <button className="buttons">Next  &nbsp; <i class="fa-solid fa-chevron-right"></i></button>
+                <button className="buttons">Next  &nbsp; <i className="fa-solid fa-chevron-right"></i></button>
             </div>
             :
             <div className="hideButtons">
