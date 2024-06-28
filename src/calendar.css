@@ -1,0 +1,31 @@
+#calendar{
+    background-color: white !important;
+    /* color: black !important; */
+    
+}
+.vanilla-calendar-header *{
+  color: #378760 !important;
+}
+.calendar{
+    margin: 1rem;
+    border: 2px solid #ebebf0;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+.vanilla-calendar-week .vanilla-calendar-week__day{
+    color: #378760 !important;
+    font-size: 15px;
+
+}
+.vanilla-calendar{
+    width: 92% !important;
+    height: 20rem !important;
+  }
+  .leftCalendar{
+    display: block;
+    width: 100%;
+  }
+  * {
+    font-family: "Poppins", sans-serif;
+  }

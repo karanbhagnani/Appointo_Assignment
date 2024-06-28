@@ -1,0 +1,29 @@
+.mainScreen{
+    display: flex;
+    border-radius: 1rem;
+    align-content:center;
+    justify-content: flex-start;
+    height: max-content;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 7rem;
+    left: 25%;
+    width: 50%;
+    bottom: 10rem;
+    right: 25%;
+}
+.leftCalendar{
+    border: 2px solid transparent;
+    border-top-left-radius: 1rem;
+    background-color: #ebebf0;
+}
+.productName{
+    margin-left: 2rem;
+    font-size: 24px;
+    display: flex;
+}
+.timeZone{
+    margin-left: 2rem;
+    display: flex;
+    margin-top: -1rem;
+}

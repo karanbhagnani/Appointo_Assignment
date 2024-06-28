@@ -1,0 +1,90 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.variantDropdown{
+    border-radius: 7px;
+    height: 3rem;
+    background-color: #fafafc;
+    color: #378760;
+    border-color: #c8c9d9;
+    font-size: 15px;
+    padding: 0.675em 6em 0.675em 1em;
+  }
+  .variantSelector{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    border-bottom: 1px solid #c8c9d9;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+  }
+.variantLabel{
+  font-size: 12px;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+}
+.timeSlots{
+  border: 2px solid transparent;
+  border-top-right-radius: 1rem;
+  width: 100%;
+  background-color: #ffffff;
+  height: 20rem;
+  margin-left: 1rem;
+}
+.rightSide{
+  display: flex;
+  width: 100%;
+}
+.availableSlots{
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  height: 19rem;
+  overflow: scroll;
+  margin-left: 1rem;
+  padding: 0px !important;
+}
+.availableSlots li{
+border: 2px solid #378760;;
+margin-bottom: 2rem;
+appearance: auto;
+line-height: 21px;
+min-height: 44px;
+width: 97%;
+text-align: center;
+border-radius: 7px;
+color: #378760;
+font-weight: 600;
+cursor: pointer;
+font-style: normal;
+font-size: 16px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.displayDate{
+  font-size: 14px;
+  opacity: .7;
+  display: flex;
+  margin-left: 1rem;
+  height: .5rem;
+  color: #000000;
+}
+.availableSlots ul{
+  padding: 0px !important;
+}
+.dark {
+  color: white !important;
+  background-color: #378760 !important;
+}
+.light {
+  color:  #378760 !important;
+  background-color: white !important;
+}
+.loader {
+  margin-left: 8rem;
+  display: none;
+  margin-top: 5rem;
+}

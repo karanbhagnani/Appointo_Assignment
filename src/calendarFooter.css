@@ -1,0 +1,67 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+.footer{
+    display: flex;
+    top: 45rem;
+    width: 100%;
+    height: 3.5rem;
+    background-color: #378760;
+    margin-top: -1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .vanilla-calendar-day__btn.vanilla-calendar-day__btn_prev{
+    display: none !important;
+}
+.vanilla-calendar-days .vanilla-calendar-day__btn_weekend{
+    color: black !important;
+}
+.vanilla-calendar-week__day{
+    color: black !important;
+} */
+.appointoBranding{
+    color: white;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+.buttons{
+  margin-right: 1rem;
+  background-color: white;
+  line-height: 2.5rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  width: 5rem;
+  cursor: pointer;
+  justify-content: center;
+  background-color: white;
+  line-height: 2.5rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  width: 5rem;
+  cursor: pointer;
+  justify-content: center;
+}
+.hideButtons{
+    display: none !important;
+}
+.buttonsNext{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.material-symbols-outlined {
+    font-weight: 900;
+    font-size: 9px;
+}
+.fa-solid {
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.appointoBranding a{
+    color: white;
+    
+}
